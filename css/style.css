@@ -1,0 +1,111 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+div,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  height: 520px;
+}
+header .content img {
+  width: 100%;
+  height: 520px;
+}
+.title {
+  padding-bottom: 20px;
+}
+.title h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+.about-us {
+  background-color: #3f3434;
+  padding: 20px 0;
+}
+.about-us .title {
+  padding-bottom: 10px;
+}
+.about-us .title h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #977272;
+  font-weight: 500;
+}
+.about-us .text {
+  text-align: center;
+}
+.about-us .text p {
+  color: #c9c9c9;
+  line-height: 200%;
+}
+.about-products {
+  padding: 20px 0;
+}
+.about-products .title {
+  padding-bottom: 40px;
+}
+.about-products .title h2 {
+  color: #4b4949;
+}
+.about-products .block-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-products .block-wrap .block {
+  width: 26%;
+  box-shadow: 2px 6px 25px -1px rgba(0, 0, 0, 0.75);
+  margin-bottom: 40px;
+  transition: all 0.3s ease;
+  padding: 8px 0;
+}
+.about-products .block-wrap .block .image {
+  width: 95%;
+  margin: 0 auto;
+}
+.about-products .block-wrap .block .image img {
+  width: 100%;
+}
+.about-products .block-wrap .block .name {
+  padding: 10px;
+}
+.about-products .block-wrap .block .name p {
+  font-size: 20px;
+}
+.about-products .block-wrap .block:hover {
+  background-color: #5c4940;
+  transform: scale(1.2);
+}
+footer {
+  background-color: #18182e;
+  padding: 30px 0;
+}
+footer p {
+  color: #cacaca;
+  text-align: center;
+}
